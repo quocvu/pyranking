@@ -23,6 +23,7 @@ classifiers = [
 [project.optional-dependencies]
 test = [
     "pytest>=8.3",
+    "coverage",
 ]
 
 [project.urls]

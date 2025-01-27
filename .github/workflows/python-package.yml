@@ -31,4 +31,6 @@ jobs:
         if [ -f requirements.txt ]; then make init; fi
     - name: Test with pytest
       run: |
-        make test
+        make coverage
+    - name: Coveralls
+      uses: coverallsapp/github-action@v2
