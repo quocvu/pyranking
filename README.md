@@ -86,4 +86,4 @@ const ranked_anguages = rank(languages, score_fn, start=5);
 
 ## License
 
-[MIT](https://github.com/quocvu/pyranking/blob/master/LICENSE.txt)
+[MIT](https://github.com/quocvu/pyranking/blob/master/LICENSE)
