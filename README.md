@@ -33,7 +33,7 @@ languages = [
   { "name": 'Groovy', "year": 2003 },
   { "name": 'Scala', "year": 2003 },
   { "name": 'Go', "year": 2009 },
-];
+]
 ```
 
 We need to provide a function defining the sorting criteria. The function
@@ -50,7 +50,7 @@ Let's run the ranking operation on this list of languages
 
 ```
 from pyranking import rank
-ranked_languages = rank(languages, score_fn);
+ranked_languages = rank(languages, score_fn)
 ```
 
 The `ranked_languages` is an array that looks like below. By default, it sorts
